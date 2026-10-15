@@ -47,7 +47,7 @@ On Windows, `py` can be used instead of `python` if needed.
    python analysis.py
    ```
 
-
+Make sure the terminal is opened in the `programming project` folder, where both `analysis.py` and `data.txt` are located. The script reads `data.txt` using a relative file path, so running it from a different working directory may result in a `FileNotFoundError`.
 The terminal prints the fitted coefficients, R², RMSE, and the ten planets with the largest absolute residuals from the simple fit. Three plots are displayed in Matplotlib windows. **The script displays the plots but does not automatically save image files.** Depending on the plotting backend, close a plot window to continue to the next one.
 
 ## Dataset and cleaning
