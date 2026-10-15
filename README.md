@@ -15,7 +15,7 @@ The analysis uses logarithmic linear regressions to compare the fitted exponents
 
 ## Files
 
-- `code.txt` — Python script containing the data cleaning, regressions, calculations, and plots. Can be found under the folder "programming project".
+- `analysis.py` — Python script containing the data cleaning, regressions, calculations, and plots. Can be found under the folder "programming project".
 - `data.txt` — CSV dataset downloaded from the NASA Exoplanet Archive. Can be found under the folder "programming project".
 - `README.md` — Instructions and information about the project.
 - The report PDF — Scientific background, methods, results, and discussion (included separately in the repository).
@@ -39,15 +39,14 @@ On Windows, `py` can be used instead of `python` if needed.
 
 ## How to run
 
-1. Download the repository and keep `code.txt` and `data.txt` in the **same folder**.
+1. Download the repository and keep `analysis.py` and `data.txt` in the **same folder**.
 2. Open that folder in Visual Studio Code (or a terminal).
 3. Run:
 
    ```bash
-   python code.txt
+   python analysis.py
    ```
 
-Although the script is supplied as `code.txt`, it contains Python code and runs with the command above. It can also be renamed to `code.py` if preferred. The script reads `data.txt` from the current working folder.
 
 The terminal prints the fitted coefficients, R², RMSE, and the ten planets with the largest absolute residuals from the simple fit. Three plots are displayed in Matplotlib windows. **The script displays the plots but does not automatically save image files.** Depending on the plotting backend, close a plot window to continue to the next one.
 
