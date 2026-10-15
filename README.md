@@ -15,8 +15,8 @@ The analysis uses logarithmic linear regressions to compare the fitted exponents
 
 ## Files
 
-- `code.txt` — Python script containing the data cleaning, regressions, calculations, and plots.
-- `data.txt` — CSV dataset downloaded from the NASA Exoplanet Archive.
+- `code.txt` — Python script containing the data cleaning, regressions, calculations, and plots. Can be found under the folder "programming project".
+- `data.txt` — CSV dataset downloaded from the NASA Exoplanet Archive. Can be found under the folder "programming project".
 - `README.md` — Instructions and information about the project.
 - The report PDF — Scientific background, methods, results, and discussion (included separately in the repository).
 
